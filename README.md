@@ -2,7 +2,7 @@
 
 The official implementation of the paper: 
 
-"FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model" (the arxiv link will coming soom)
+"FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model" (the arxiv link will come soom)
 
 By [Jiwen Yu](https://scholar.google.com.hk/citations?user=uoRPLHIAAAAJ), [Yinhuai Wang](https://wyhuai.github.io/info/), [Chen Zhao](https://scholar.google.com/citations?user=dUWdX5EAAAAJ), [Bernard Ghanem](https://www.bernardghanem.com/), [Jian Zhang](https://jianzhang.tech/)
 

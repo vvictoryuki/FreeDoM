@@ -16,11 +16,11 @@ This paper is under review, and we will release the codes and supplementary mate
 
 | Model Source                                                 | Data Domain        | Resolution               | Original Conditions           | Additional Training-free Conditions                | Sampling Time*(s/image) |
 | ------------------------------------------------------------ | ------------------ | ------------------------ | ----------------------------- | -------------------------------------------------- | ----------------------- |
-| [SDEdit](https://github.com/ermongroup/SDEdit)               | aligned human face | $256\times256$           | None                          | parsing maps, sketches, landmarks, face IDs, texts | $\approx$20s            |
-| [guided-diffusion](https://github.com/openai/guided-diffusion) | ImageNet           | $256\times256$           | None                          | texts, style images                                | $\approx$140s           |
-| [guided-diffusion](https://github.com/openai/guided-diffusion) | ImageNet           | $256\times256$           | class label                   | style images                                       | $\approx$50s            |
-| [Stable Diffusion](https://github.com/CompVis/stable-diffusion) | general images     | $512\times512$(standard) | texts                         | style images                                       | $\approx$84s            |
-| [ControlNet](https://github.com/lllyasviel/ControlNet)       | general images     | $512\times512$(standard) | human poses, scribbles, texts | face IDs, style images                             | $\approx$120s           |
+| [SDEdit](https://github.com/ermongroup/SDEdit)               | aligned human face | $256\times256$           | None                          | parsing maps, sketches, landmarks, face IDs, texts | ≈20s            |
+| [guided-diffusion](https://github.com/openai/guided-diffusion) | ImageNet           | $256\times256$           | None                          | texts, style images                                | ≈140s           |
+| [guided-diffusion](https://github.com/openai/guided-diffusion) | ImageNet           | $256\times256$           | class label                   | style images                                       | ≈50s            |
+| [Stable Diffusion](https://github.com/CompVis/stable-diffusion) | general images     | $512\times512$(standard) | texts                         | style images                                       | ≈84s            |
+| [ControlNet](https://github.com/lllyasviel/ControlNet)       | general images     | $512\times512$(standard) | human poses, scribbles, texts | face IDs, style images                             | ≈120s           |
 
 *The sampling time is tested on a GeForce RTX 3090 GPU card.
 

@@ -1,8 +1,9 @@
 # FreeDoM
+[![arXiv](https://img.shields.io/badge/arXiv-<2303.09833>-<COLOR>.svg)](https://arxiv.org/abs/2303.09833)
 
 The official implementation of the paper: 
 
-"FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model" (the arxiv link will come soon)
+["FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model"](https://arxiv.org/abs/2303.09833)
 
 By [Jiwen Yu](https://scholar.google.com.hk/citations?user=uoRPLHIAAAAJ), [Yinhuai Wang](https://wyhuai.github.io/info/), [Chen Zhao](https://scholar.google.com/citations?user=dUWdX5EAAAAJ), [Bernard Ghanem](https://www.bernardghanem.com/), [Jian Zhang](https://jianzhang.tech/)
 
@@ -113,7 +114,18 @@ We also introduce some recent works that shared similar ideas by updating the cl
   - (Repaint) https://github.com/andreas128/RePaint
   - (DPS) https://github.com/DPS2022/diffusion-posterior-sampling
 
+## Citation
 
+If this work is helpful for your research, please consider citing the following BibTeX entry.
+
+```
+@article{yu2023freedom,
+title={FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model},
+author={Yu, Jiwen and Wang, Yinhuai and Zhao, Chen and Ghanem, Bernard and Zhang, Jian},
+journal={arXiv:2303.09833},
+year={2023}
+}
+```
 
 
 

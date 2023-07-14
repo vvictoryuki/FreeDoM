@@ -1,17 +1,24 @@
-# FreeDoM (ICCV 2023)
+<div align="center">
+<h1>FreeDoM 🕊️ (ICCV 2023)</h1>
+<h3>FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model</h3>
+
+[Jiwen Yu](https://vvictoryuki.github.io/website/)<sup>1</sup>, [Yinhuai Wang](https://wyhuai.github.io/info/)<sup>1</sup>, [Chen Zhao](https://scholar.google.com/citations?user=dUWdX5EAAAAJ)<sup>2</sup>, [Bernard Ghanem](https://www.bernardghanem.com/)<sup>2</sup>, [Jian Zhang](https://jianzhang.tech/)<sup>1</sup>
+
+<sup>1</sup> Peking University, <sup>2</sup> KAUST
+
 [![arXiv](https://img.shields.io/badge/arXiv-<2303.09833>-<COLOR>.svg)](https://arxiv.org/abs/2303.09833)
 
-The official implementation of the paper: 
+</div>
 
-["FreeDoM: Training-Free Energy-Guided Conditional Diffusion Model"](https://arxiv.org/abs/2303.09833)
+## News
 
-By [Jiwen Yu](https://scholar.google.com.hk/citations?user=uoRPLHIAAAAJ), [Yinhuai Wang](https://wyhuai.github.io/info/), [Chen Zhao](https://scholar.google.com/citations?user=dUWdX5EAAAAJ), [Bernard Ghanem](https://www.bernardghanem.com/), [Jian Zhang](https://jianzhang.tech/)
+- **_News (2023-07-14)_**: 🎉🎉🎉 Congratulations on FreeDoM being accepted by ICCV 2023! Our open-source project is making progress, stay tuned for updates!
+
+## Introduction
 
 ![](./figure/overview.png)
 
 FreeDoM is a **simple but effective training-free** method generating results under control from various conditions using unconditional diffusion models. Specifically, we use off-the-shelf pre-trained networks to construct the time-independent energy function, which measures the distance between the given conditions and the intermediately generated images. Then we compute the energy gradient and use it to guide the generation process. FreeDoM **supports various conditions**, including texts, segmentation maps, sketches, landmarks, face IDs, and style images. FreeDoM **applies to different data domains**, including human faces, images from ImageNet, and latent codes. 
-
-🎉🎉🎉 **_News (2023-07-14)_**: Congratulations on FreeDoM being accepted by ICCV 2023! Our open-source project is making progress, stay tuned for updates!
 
 ## Overall Experimental Configurations
 

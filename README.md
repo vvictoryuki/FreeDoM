@@ -1,4 +1,4 @@
-# FreeDoM
+# FreeDoM (ICCV 2023)
 [![arXiv](https://img.shields.io/badge/arXiv-<2303.09833>-<COLOR>.svg)](https://arxiv.org/abs/2303.09833)
 
 The official implementation of the paper: 

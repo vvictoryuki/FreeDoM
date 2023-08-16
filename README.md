@@ -12,14 +12,15 @@
 
 ## News
 
+- **_News (2023-08-17)_**: We have released the main code. The details of ControlNet-related code can be found in `./CN` while the details of the human face and guided diffusion-related code can be found in `./Face-GD`
 - **_News (2023-07-16)_**: We have released the code for FreeDoM-SD-Style, and you can find detailed information in the directory of `./SD_style`
 - **_News (2023-07-14)_**: 🎉🎉🎉 Congratulations on FreeDoM being accepted by ICCV 2023! Our open-source project is making progress, stay tuned for updates!
 
 ## Todo
 
 - [ ] release the the camera-ready version of the paper and supplementary materials
-- [ ] release the code for human face diffusion models with various training-free guidances
-- [ ] release the code for ControlNet with training-free face ID guidance
+- [x] release the code for human face diffusion models and guided diffusion with various training-free guidances
+- [x] release the code for ControlNet with training-free face ID guidance and style guidance
 - [x] release the code for Stable Diffusion with training-free style guidance 
 
 ## Introduction

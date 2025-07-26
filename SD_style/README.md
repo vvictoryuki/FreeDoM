@@ -10,7 +10,7 @@ You can directly use the conda environment for Stable Diffusion. Please refer to
 
 ##### Pre-trained Model
 
-You can download the model weights (SD-v1-4) from [here](https://huggingface.co/CompVis) and then place them in this directory (`models/ldm/stable-diffusion-v1/model.ckpt`).
+You can download the model weights (SD-v1-4) from [here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) and then place them in this directory (`models/ldm/stable-diffusion-v1/model.ckpt`).
 
 ## Quick Start
 
